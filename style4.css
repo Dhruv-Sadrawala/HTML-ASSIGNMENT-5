@@ -1,0 +1,12 @@
+.square{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	margin: 250px 650px;
+}
+
+.square:hover{
+	    transition: all 0.8s ease;
+	    scale: 1.2;
+		background-color: yellow;
+}

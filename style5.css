@@ -1,0 +1,11 @@
+.cont{
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	margin: 250px 650px;
+}
+.cont:hover{
+	background-color: yellow;
+	rotate: 90deg;
+	transition: ease 0.4s all;
+}
