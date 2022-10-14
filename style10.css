@@ -1,0 +1,37 @@
+.text-container p:nth-of-type(1) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				animation: fadeOut 1s ease-in-out forwards;
+			}
+			.text-container p:nth-of-type(2) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				opacity: 0;
+				transition: all 0.3s ease;
+				animation: fadeIn 1s ease-in-out 0.4s forwards;
+			}
+			.text-container {
+				font-family: sans-serif;
+				position: relative;
+				font-size: 30px;
+				margin: 1rem;
+				height: 100px;
+			}
+			@keyframes fadeOut {
+				0% {
+					opacity: 1;
+				}
+				100% {
+					opacity: 0;
+				}
+			}
+			@keyframes fadeIn {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
